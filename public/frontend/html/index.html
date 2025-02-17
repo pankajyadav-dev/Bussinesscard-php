@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body class="bg-blue-200">
+
+        <nav class="bg-blue-800 shadow-lg flex justify-between items-center p-4 max-w-6xl mx-auto px-4 rounded-b-lg">
+            <div class="text-white font-bold text-2xl">
+                <h1>Business Card Generator</h1>
+            </div>
+            <div class="text-white mx-1 relative">
+                <i id="user" class="fa-solid fa-user text-2xl cursor-pointer p-2 bg-gray-400 rounded-full"></i>
+                <div id="user-dropdown" class="absolute top-10 right-0 w-32 bg-white border border-gray-300 rounded-lg shadow-lg hidden">
+                    <ul class="list-none p-0 m-0">
+                        <li id="home" class="p-2 cursor-pointer hover:bg-gray-200 text-black" data-icon="fa-user">User</li>
+                        <li id="logout" class="p-2 cursor-pointer hover:bg-gray-200 text-black" data-icon="fa-sign-out-alt">Logout</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="max-w-6xl mx-auto px-4 py-8 bg-white">
+            <h2 id="message"><b>hi user</b></h2>
+            <div>
+                <h1 class="text-2xl font-bold p-4">Frequently Asked Questions</h1>
+                <div class="">
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+                    <div class="bg-blue-200 border rounded-lg p-4 ">
+                        <div class="flex justify-between items-center border-b border-gray-300 pb-2">
+                            <div>message</div>
+                            <a href="#"><i class="fa-solid fa-plus" id="show-question"></i></a>
+                        </div>
+                        <div id="question-answer" class="hidden">answer</div>
+                    </div>
+
+                    
+                </div>
+                    
+            </div>
+        </main>
+        <footer class="bg-blue-800 shadow-lg flex justify-between p-4 max-w-6xl mx-auto px-4 rounded-b-lg relative bottom-0">
+            <p>footer</p>
+        </footer> 
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>
